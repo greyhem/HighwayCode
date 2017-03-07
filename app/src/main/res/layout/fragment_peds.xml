@@ -1,0 +1,117 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.highwaycode.Peds">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|bottom">
+
+
+
+
+
+        <RelativeLayout
+            android:paddingTop="35dp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:baselineAligned="false"
+            android:background="#902a2a"
+            android:id="@+id/ped_layout1"
+            android:onClick="onClick"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/pedsimageView1"
+                android:layout_width="156dp"
+                android:layout_height="156dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/guidance"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:paddingLeft="10dp"
+                android:baselineAlignBottom="true" />
+
+            <TextView
+                android:id="@+id/pedstextView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="General Guidance"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:layout_toRightOf="@+id/pedsimageView1"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignBottom="@+id/pedsimageView1"
+                android:clickable="true" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+
+            android:paddingTop="35dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="false"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:baselineAligned="false"
+            android:background="#902a2a"
+            android:id="@+id/ped_layout2"
+            android:layout_below="@id/ped_layout1"
+            android:onClick="onClick"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/pedsimageView2"
+                android:layout_width="156dp"
+                android:layout_height="156dp"
+                android:src="@drawable/cross"
+                android:clickable="true"
+                android:paddingLeft="10dp"
+                android:onClick="onClick"
+                android:baselineAlignBottom="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/pedstextView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:text="Crossing the Road"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:layout_toRightOf="@+id/pedsimageView2"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignBottom="@+id/pedsimageView2"
+                android:clickable="true" />
+
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+    />
+
+
+</FrameLayout>

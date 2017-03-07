@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Signs and Markings">
+            <menu>
+        <item android:id="@+id/nav_ts" android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="Traffic signs " />
+        <item android:id="@+id/nav_rm" android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="Road markings" />
+        <item android:id="@+id/nav_vm" android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="Vehicle markings " />
+        </menu>
+        </item>
+    </group>
+
+    <item android:title="Who are you?">
+        <menu>
+            <item android:id="@+id/nav_ped" android:icon="@android:drawable/ic_menu_camera"
+                android:title="Pedestrians" />
+            <item android:id="@+id/nav_cyclist" android:icon="@android:drawable/ic_menu_gallery"
+                android:title="Cyclists" />
+            <item android:id="@+id/nav_motor" android:icon="@android:drawable/ic_menu_manage"
+                android:title="Motorcyclists" />
+            <item android:id="@+id/nav_driver" android:icon="@android:drawable/ic_menu_manage"
+                android:title="Drivers" />
+        </menu>
+    </item>
+
+</menu>

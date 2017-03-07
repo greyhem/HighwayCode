@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A567E">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/close_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:src="@drawable/close" />
+        <ImageView
+            android:id="@+id/pedimageView2"
+            android:layout_width="156dp"
+            android:layout_height="156dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/cross"
+            android:paddingLeft="10dp"
+            android:baselineAlignBottom="true" />
+
+        <TextView
+            android:id="@+id/pedstextView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Crossing the Road"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffff"
+            android:background="#000000"
+            android:gravity="center"
+            android:layout_toRightOf="@+id/pedimageView1"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignBottom="@+id/pedimageView1"
+            android:clickable="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" The Green Cross Code.
+            The advice given below on crossing the road is for all pedestrians. Children should be taught the Code and should not be allowed out alone until they can understand and use it properly. The age when they can do this is different for each child. Many children cannot judge how fast vehicles are going or how far away they are. Children learn by example, so parents and carers shouldalways use the Code in full when out with their children. They are responsible for deciding at what age children can use it safely by themselves.
+"
+            android:textSize="16dp"
+            android:padding="8dp"
+            android:textColor="#FFFFFF"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="
+A. First find a safe place to cross and where there is space to reach the pavement on the other side. Where there is a crossing nearby, use it. It is safer to cross using a subway, a footbridge, an island, a zebra, pelican, toucan or puffin crossing, or where there is a crossing point controlled by a police officer, a school crossing patrol or a traffic warden. Otherwise choose a place where you can see clearly in all directions. Try to avoid crossing between parked on a blind bend, or close to the brow of a hill. Move to a space where drivers and riders can see you clearly Crossing the road
+"
+            android:textSize="16dp"
+            android:padding="8dp"
+            android:textColor="#FFFFFF"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" B. Stop just before you get to the kerb,  where you can see if anything is coming.Do not get too close to the traffic. If there's no pavement, keep back from theedge of the road but make sure you can still see approaching traffic.
+"
+            android:textSize="16dp"
+            android:padding="8dp"
+            android:textColor="#FFFFFF"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C. Look all around for traffic and listen. Traffic could come from any direction Listen as well, because you can sometimes hear traffic before you see it.
+"
+            android:textSize="16dp"
+            android:padding="8dp"
+            android:textColor="#FFFFFF"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D. If traffic is coming, let it pass. Look all  around again and listen. Do not cross until there is a safe gap in the traffic and you are certain that there is plenty of time. Remember, even if traffic is a long way off, it may be approaching very quickly."
+
+            android:textSize="16dp"
+            android:padding="8dp"
+            android:textColor="#FFFFFF"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E. When it is safe, go straight across the road - do not run. Keep looking and listening for traffic while you cross, in case there is any traffic you did not see, or in case other traffic appears suddenly.Look out for cyclists and motorcyclists travelling between lanes of traffic. Do not walk diagonally across the road.
+
+"
+
+            android:textSize="16dp"
+            android:padding="8dp"
+            android:textColor="#FFFFFF"
+            />
+
+
+
+    </LinearLayout>
+
+</ScrollView>

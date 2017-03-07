@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.highwaycode.TrafficSigns">
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#1A567E">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/motorimageView1"
+                android:layout_width="156dp"
+                android:layout_height="156dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:baselineAlignBottom="true"
+                android:paddingLeft="10dp"
+                android:src="@drawable/motor1" />
+
+            <TextView
+                android:id="@+id/motortextview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/cycimageView1"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@+id/cycimageView1"
+                android:background="#000000"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="General Rules"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text=" 1. On all journeys, the rider and pillion passenger on a motorcycle, scooter or moped wear a protective helmet. This does not apply to a follower of the Sikh religion while wearing a turban. Helmets comply with the Regulations and they be fastened securely. Riders and passengers of motor tricycles and quadricycles, also called quadbikes, should also wear a protective helmet. Before each journey check that your helmet visor is clean and in good condition."
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="2. It is also advisable to wear eye protectors, which comply with the Regulations. Scratched or poorly fitting eye protectors can limit your view when riding, particularly in bright sunshine and the hours of darkness. Consider wearing ear protection. Strong boots, gloves and suitable clothing may help to protect you if you are involved in a collision."
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+
+
+                android:text=" 3.  You carry more than one pillion passenger who sit astride the machine on a proper seat. They should face forward with both feet on the footrests. You carry a pillion passenger unless your motor cycle is designed to do so. Provisional licence holders carry a pillion passenger."
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text=" 4. Daylight riding. Make yourself as visible as possible from the side as well as the front and rear. You could wear a light or brightly coloured helmet and fluorescent clothing or strips. Dipped headlights, even in good daylight, may also make you more conspicuous. However, be aware that other vehicle drivers may still not have seen you, or judged your distance or speed correctly, especially at junctions."
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text=" 4. Riding in the dark. Wear reflective clothing or strips to improve your visibility in the dark. These reflect light from the headlamps of other vehicles, making you visible from a longer distance.
+"
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text=" 5.Manoeuvring. You should be aware of what is behind and to the sides before manoeuvring. Look behind you; use mirrors if they are fitted. When in traffic queues look out for pedestrians crossing between vehicles and vehicles emerging from junctions or changing lanes. Position yourself so that drivers can see you in their mirrors. Additionally, when filtering in slow-moving traffic, take care and keep your speed low"
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

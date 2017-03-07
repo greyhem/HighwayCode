@@ -1,0 +1,177 @@
+General guidance
+1. Pavements (including any path along
+the side of a road) should be used if
+provided. Where possible, avoid being
+next to the kerb with your back to the
+traffic. If you have to step into the road,
+look both ways first. Always show due
+care and consideration for others.
+2. If there is no pavement, keep to the
+right-hand side of the road so that you
+can see oncoming traffic. You should
+take extra care and
+be prepared to walk in single file,
+especially on narrow roads or in poor
+light
+keep close to the side of the road.
+It may be safer to cross the road well
+before a sharp right-hand bend so that
+oncoming traffic has a better chance of
+seeing you. Cross back after the bend.
+3. Help other road users to see you.
+Wear or carry something light-coloured,
+bright or fluorescent in poor daylight
+conditions. When it is dark, use reflective
+materials (e.g. armbands, sashes,
+waistcoats, jackets, footwear), which can
+be seen by drivers using headlights up to
+three times as far away as non-reflective
+4. Young children should not be out alone
+on the pavement or road (see Rule 7).
+When taking children out, keep between
+them and the traffic and hold their hands
+firmly. Strap very young children into
+push-chairs or use reins. When pushing
+a young child in a buggy, do not push the
+buggy into the road when checking to
+see if it is clear to cross, particularly from
+between parked vehicles.
+
+5. Organised walks. Large groups of
+people walking together should use a
+pavement if available; if one is not, they
+should keep to the left. Look-outs should
+be positioned at the front and back of the
+group, and they should wear fluorescent
+clothes in daylight and reflective clothes
+in the dark. At night, the look-out in front
+should show a white light and the one at
+the back a red light. People on the
+outside of large groups should also carry
+lights and wear reflective clothing.
+6. Motorways. Pedestrians be
+on motorways or slip roads except in an
+emergency.
+
+
+
+
+7.  The Green Cross Code. The advice 
+given below on crossing the road is for
+all pedestrians. Children should be
+taught the Code and should not be
+allowed out alone until they can
+understand and use it properly. The age
+when they can do this is different for
+each child. Many children cannot judge
+how fast vehicles are going or how far
+away they are. Children learn by
+example, so parents and carers should
+always use the Code in full when out
+with their children. They are responsible
+for deciding at what age children can use
+it safely by themselves.
+A. First find a safe place to cross and
+where there is space to reach the
+pavement on the other side. Where there
+is a crossing nearby, use it. It is safer to
+cross using a subway, a footbridge, an
+island, a zebra, pelican, toucan or puffin
+crossing, or where there is a crossing
+point controlled by a police officer, a
+school crossing patrol or a traffic warden.
+Otherwise choose a place where you can
+see clearly in all directions. Try to avoid
+crossing between parked cars (see Rule
+14), on a blind bend, or close to the brow
+of a hill. Move to a space where drivers
+and riders can see you clearly. Do not
+cross the road diagonally.
+MUST NOT
+Laws RTRA sect 17, MT(E&W)R 1982 as amended,
+reg 15(1)(b) & MT(S)R reg 13
+Crossing the road
+
+6 Rules for pedestrians B. Stop just before you get to the kerb,
+where you can see if anything is coming.
+Do not get too close to the traffic. If
+there's no pavement, keep back from the
+edge of the road but make sure you can
+still see approaching traffic.
+C. Look all around for traffic and listen.
+Traffic could come from any direction.
+Listen as well, because you can
+sometimes hear traffic before you see it.
+D. If traffic is coming, let it pass. Look all
+around again and listen. Do not cross
+until there is a safe gap in the traffic and
+you are certain that there is plenty of
+time. Remember, even if traffic is a long
+way off, it may be approaching very
+quickly.
+E. When it is safe, go straight across the
+road - do not run. Keep looking and
+listening for traffic while you cross, in
+case there is any traffic you did not see,
+or in case other traffic appears suddenly.
+Look out for cyclists and motorcyclists
+travelling between lanes of traffic. Do not
+walk diagonally across the road.
+8. At a junction. When crossing the road,
+look out for traffic turning into the road,
+especially from behind you. If you have
+started crossing and traffic wants to turn
+into the road, you have priority and they
+should give way (see Rule 170).
+9. Pedestrian Safety Barriers. Where
+there are barriers, cross the road only at
+the gaps provided for pedestrians. Do
+not climb over the barriers or walk
+between them and the road.
+10. Tactile paving. Raised surfaces that can
+be felt underfoot provide warning and
+guidance to blind or partially sighted
+people. The most common surfaces are
+a series of raised studs, which are used
+at crossing points with a dropped kerb,
+or a series of rounded raised bars which
+are used at level crossings, at the top
+and bottom of steps and at some other
+hazards.
+11. One-way streets. Check which way the
+traffic is moving. Do not cross until it is
+safe to do so without stopping. Bus and
+cycle lanes may operate in the opposite
+direction to the rest of the traffic.
+12. Bus and cycle lanes. Take care when
+crossing these lanes as traffic may be
+moving faster than in the other lanes, or
+against the flow of traffic.
+13. Routes shared with cyclists. Some
+cycle tracks run alongside footpaths or
+pavements, using a segregating feature
+to separate cyclists from people on foot.
+Segregated routes may also incorporate
+short lengths of tactile paving to help
+visually impaired people stay on the
+correct side. On the pedestrian side this
+will comprise a series of flat-topped bars
+running across the direction of travel
+(ladder pattern). On the cyclist side the
+same bars are orientated in the direction
+of travel (tramline pattern). Not all routes
+which are shared with cyclists are
+segregated. Take extra care
+
+
+
+ <ImageView
+        android:id="@+id/tsimageView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:baselineAlignBottom="true"
+        android:paddingLeft="10dp"
+        android:src="@drawable/tsfull" />

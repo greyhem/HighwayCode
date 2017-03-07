@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A567E">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/close_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:src="@drawable/close" />
+        <ImageView
+            android:id="@+id/pedimageView1"
+            android:layout_width="156dp"
+            android:layout_height="156dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/guidance"
+            android:paddingLeft="10dp"
+            android:baselineAlignBottom="true" />
+
+        <TextView
+            android:id="@+id/pedstextView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="General Guidance"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffff"
+            android:background="#000000"
+            android:gravity="center"
+            android:layout_toRightOf="@+id/pedimageView1"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignBottom="@+id/pedimageView1"
+            android:clickable="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Pavements (including any path along  the side of a road) should be used if provided. Where possible, avoid being  next to the kerb with your back to the traffic. If you have to step into the road,look both ways first. Always show due care and consideration for others.
+"
+            android:textSize="16dp"
+            android:padding="8dp"
+            android:textColor="#FFFFFF"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. If there is no pavement, keep to the right-hand side of the road so that you can see oncoming traffic. You should take extra care and be prepared to walk in single file, especially on narrow roads or in poor lightkeep close to the side of the road.It may be safer to cross the road well before a sharp right-hand bend so that oncoming traffic has a better chance of seeing you. Cross back after the bend. "
+            android:textSize="16dp"
+            android:padding="8dp"
+            android:textColor="#FFFFFF"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Help other road users to see you. Wear or carry something light-coloured, bright or fluorescent in poor daylight conditions. When it is dark, use reflective materials (e.g. armbands, sashes, waistcoats, jackets, footwear), which can be seen by drivers using headlights up to three times as far away as non-reflective"
+            android:textSize="16dp"
+            android:padding="8dp"
+            android:textColor="#FFFFFF"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Young children should not be out alone on the pavement or road  .When taking children out, keep between them and the traffic and hold their hands firmly. Strap very young children into push-chairs or use reins. When pushing a young child in a buggy, do not push the buggy into the road when checking to see if it is clear to cross, particularly from between parked vehicles."
+            android:textSize="16dp"
+            android:padding="8dp"
+            android:textColor="#FFFFFF"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="16dp"
+            android:padding="8dp"
+            android:textColor="#FFFFFF"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. Organised walks. Large groups of people walking together should use a pavement if available; if one is not, they should keep to the left. Look-outs should be positioned at the front and back of the group, and they should wear fluorescent clothes in daylight and reflective clothes in the dark. At night, the look-out in front should show a white light and the one at the back a red light. People on the outside of large groups should also carry lights and wear reflective clothing."
+            android:textSize="16dp"
+            android:padding="8dp"
+            android:textColor="#FFFFFF"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6. Motorways. Pedestrians be on motorways or slip roads except in an emergency."
+            android:textSize="16dp"
+            android:padding="8dp"
+            android:textColor="#FFFFFF"
+            />
+
+
+    </LinearLayout>
+
+</ScrollView>

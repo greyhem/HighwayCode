@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A567E">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/close_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:src="@drawable/close" />
+        <ImageView
+            android:id="@+id/cyccrossimageView1"
+            android:layout_width="156dp"
+            android:layout_height="156dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/cross"
+            android:paddingLeft="10dp"
+            android:baselineAlignBottom="true" />
+
+        <TextView
+            android:id="@+id/cyccrosstextView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Crossing the Road"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffff"
+            android:background="#000000"
+            android:gravity="center"
+            android:layout_toRightOf="@+id/cyccrossimageView1"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignBottom="@+id/cyccrossimageView1"
+            android:clickable="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.  Do not ride across equestrian crossings, as they are for horse riders only. Do not ride across a pelican, puffin or zebra crossing. Dismount and wheel your cycle across."
+    android:textSize="16dp"
+        android:padding="8dp"
+        android:textColor="#FFFFFF"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Toucan crossings. These are lightcontrolled crossings which allow cyclists and pedestrians to share crossing space and cross at the same time. They are push-button operated. Pedestrians and cyclists will see the green signal together. Cyclists are permitted to ride across. "
+            android:textSize="16dp"
+            android:padding="8dp"
+            android:textColor="#FFFFFF"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Cycle tracks on opposite sides of the road may be linked by signalled crossings. You may ride across but you cross until the green cycle symbol is showing."
+
+    android:textSize="16dp"
+        android:padding="8dp"
+        android:textColor="#FFFFFF"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 4. Level crossings/Tramways. Take extra care when crossing the tracks You should dismount at level crossings where a 'Cyclist Dismount' sign is displayed."
+    android:textSize="16dp"
+        android:padding="8dp"
+        android:textColor="#FFFFFF"
+        />
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
